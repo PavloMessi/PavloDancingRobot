@@ -1,0 +1,442 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+
+.stage {
+top: 150px;
+font-size: 40px;
+text-align: center;
+left: 0px;
+top: 0px;
+width: 90%;
+height: 800px;
+background: #ddd;
+border-style: solid;
+border-width: 5px;
+border-color: black;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.wholebody {
+background: hwb(120 25% 48%);
+
+/* To hide uncomment this*/
+/* background: #ddd; */
+
+margin-left: 10px;
+margin-top: -20px;
+width: 240px;
+height: 400px;
+margin-top: -7px;
+
+animation: geeks 17s infinite;
+}
+
+@keyframes geeks {
+0% {
+margin-left: 45%;
+}
+
+6% {
+margin-left: 20%;
+}
+10% {
+margin-left: 0%;
+}
+15% {
+margin-left: 45%;
+}
+16.5% {
+margin-left: 60%;
+}
+
+19% {
+margin-left: 86%;
+}
+24% {
+margin-left: 45%;
+}
+30% {
+margin-left: 45%;
+}
+40% {
+margin-left: 45%;
+}
+50% {
+margin-left: 45%;
+}
+60% {
+margin-left: 45%;
+}
+70% {
+margin-left: 45%;
+}
+76% {
+margin-left: 86%;
+}
+79%{
+margin-left: 30%;
+}
+82% {
+margin-left: 0%;
+}
+100% {
+margin-left: 45%;
+}
+}
+
+
+
+
+
+
+
+/* @keyframes geeks2 {
+0%,
+23% {
+  transform: rotateY(0);
+}
+
+25% {
+  transform: rotateY(20);
+}
+
+29% {
+  transform: rotateY(-10);
+}
+32% {
+  transform: rotateY(30);
+}
+35% {
+  transform: rotateY(20);
+}
+36% {
+  transform: rotateY(0);
+}
+} */
+
+
+
+@keyframes geeks2 {
+0% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg);
+}
+
+40% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+41% {
+  transform-origin: 100% 0% ;
+transform: rotate(50deg) ;
+}
+44% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+47% {
+  transform-origin: 100% 0% ;
+transform: rotate(50deg) ;
+}
+48% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+50% {
+  transform-origin: 100% 0% ;
+transform: rotate(50deg) ;
+}
+53% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+56% {
+  transform-origin: 100% 0% ;
+transform: rotate(50deg) ;
+}
+57% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+60% {
+  transform-origin: 100% 0% ;
+transform: rotate(50deg) ;
+}
+61% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+100% {
+  transform-origin: 100% 0% ;
+  transform: rotate(0deg) ;
+}
+23% {
+  transform-origin: 100% 0% ;
+  transform: rotate(0deg) ;
+}
+35% {
+  transform-origin: 100% 0% ;
+  transform: rotate(0deg) ;
+}
+
+}
+
+
+@keyframes geeks3 { 
+  0% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg);
+}
+
+34% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+35% {
+  transform-origin: 100% 0% ;
+transform: rotate(90deg) ;
+}
+41% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+44% {
+  transform-origin: 100% 0% ;
+transform: rotate(50deg) ;
+}
+47% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+49% {
+  transform-origin: 100% 0% ;
+transform: rotate(50deg) ;
+}
+52% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+55% {
+  transform-origin: 100% 0% ;
+transform: rotate(50deg) ;
+}
+57% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+
+62%{
+  transform-origin: 100% 0% ;
+transform: rotate(50deg) ;
+}
+
+63.5% {
+  transform-origin: 100% 0% ;
+transform: rotate(0deg) ;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@keyframes geeks4 { 
+  0% {
+  transform-origin: 0% 0% ;
+transform: rotate(0deg);
+}
+
+34% {
+  transform-origin: 0% 0% ;
+transform: rotate(0deg) ;
+}
+35% {
+  transform-origin: 0% 0% ;
+transform: rotate(-90deg) ;
+}
+41% {
+  transform-origin: 0% 0% ;
+transform: rotate(0deg) ;
+}
+44% {
+  transform-origin: 0% 0% ;
+transform: rotate(-50deg) ;
+}
+47% {
+  transform-origin: 0% 0% ;
+transform: rotate(0deg) ;
+}
+49% {
+  transform-origin: 0% 0% ;
+transform: rotate(-50deg) ;
+}
+52% {
+  transform-origin: 0% 0% ;
+transform: rotate(0deg) ;
+}
+55% {
+  transform-origin: 0% 0% ;
+transform: rotate(-50deg) ;
+}
+57% {
+  transform-origin: 0% 0% ;
+transform: rotate(0deg) ;
+}
+
+62%{
+  transform-origin: 0% 0% ;
+transform: rotate(-50deg) ;
+}
+
+63.5% {
+  transform-origin: 0% 0% ;
+transform: rotate(0deg) ;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head {
+width: 40%;
+height: 40%;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+/* border-radius: 50%; */
+background-image: url("Screenshot 2024-04-09 113813.png");
+ background-size: contain;
+background-repeat: no-repeat;
+background-position-y: 35px;
+}
+.body {
+background: black;
+width: 50%;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10%;
+color: rgb(68, 69, 70);
+font-size: 30px;
+
+}
+.leg1 {
+background: black;
+width: 15%;
+height: 150px;
+margin-left: auto;
+margin-right: 70px;
+border-radius: 10%;
+}
+.leg2 {
+background: rgb(0, 0, 0);
+width: 15%;
+height: 150px;
+margin-left: 70px;
+margin-right: auto;
+border-radius: 10%;
+margin-top: -150px;
+transform-origin: 100% 0% ;
+
+animation: geeks2 17s infinite;
+}
+.arm1 {
+background: rgb(0, 0, 0);
+width: 10%;
+height: 180px;
+margin-left: 35px;
+margin-right: auto;
+border-radius: 10%;
+margin-top: -330px;
+animation: geeks3 17s infinite;
+}
+.arm2 {
+background: rgb(0, 0, 0);
+width: 10%;
+height: 180px;
+margin-left: auto;
+margin-right: 35px;
+border-radius: 10%;
+margin-top: -180px;
+animation: geeks4 17s infinite;
+transform-origin: 0% 0% ;
+
+}
+.body3 {
+background: rgb(255, 247, 247);
+width: 5%;
+height: 3px;
+margin-left: auto;
+margin-right: 75px;
+border-radius: 10%;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="stage">
+<video width="320" height="240" controls autoplay loop>
+  <source src="IMG_3147.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="wholebody">
+<div class="head">
+
+</div>
+<div class="body"
+>GAP</p> 
+
+</div>
+
+
+<div class="leg1">
+</div> 
+
+
+<div class="leg2">
+</div>
+<div class="arm1">
+</div>
+<div class="arm2">
+</div>
+<div class="body3">
+</div>
+
+</div>
+</div>
+
+</body>
+
+</html>
